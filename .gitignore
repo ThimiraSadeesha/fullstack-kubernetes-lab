@@ -1,0 +1,27 @@
+# OS
+.DS_Store
+
+# IDE
+.idea/
+.vscode/
+
+# env files
+.env
+.env.*
+!.env.example
+
+# dependencies and build output
+node_modules/
+dist/
+build/
+.next/
+out/
+coverage/
+
+# logs
+*.log
+
+# Kubernetes secrets / local overrides
+*secret*.yaml
+*.local.yaml
+kubeconfig*
